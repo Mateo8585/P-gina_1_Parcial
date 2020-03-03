@@ -1,0 +1,388 @@
+@font-face{
+
+    font-family: 'Primera fuente';
+    src: url(../Fuente/Roboto-Medium.ttf);
+
+}
+
+@font-face{
+
+    font-family: 'Segunda fuente';
+    src: url(../Fuente/Roboto-Bold.ttf);
+
+}
+
+@font-face{
+
+    font-family: 'Tercera fuente';
+    src: url(../Fuente/Roboto-Regular.ttf);
+
+}
+
+h5{
+
+    font-family: 'Primera fuente';
+
+}
+
+h6{
+
+    font-family: 'Primera fuente';
+
+}
+
+h2{
+
+    font-family: 'Segunda fuente';
+    color: white;
+    font-size: 2.1rem;
+
+}
+
+h4{
+
+    font-family: 'Segunda fuente';
+    color: #B38D4D;
+
+}
+
+p{
+
+    font-family: 'Tercera fuente';
+
+}
+
+.o-img-logoFisica1{
+
+    width: 2.6rem;
+
+}
+
+.o-BoxMenu{
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #A1C6EA;
+    height: 4rem;
+    padding: 0.7em 3rem 0rem 1.5rem;
+    box-shadow: 0px 3px 3px 0px #e3e3e3;
+    margin: 0rem 0rem 2rem 0rem;
+
+}
+
+.o-containerFirst{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.o-containerButtonReturn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+.o-containerTitleFisica{
+
+    height: 1.5rem;
+    padding: 0rem;
+    min-width: 23rem
+
+}
+
+.o-containerLogoTitle{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.o-containerLogoApple{
+
+    min-width: 4rem;
+    max-width: 4rem;
+    
+}
+
+.o-button-back{
+
+    background-color: transparent;
+    border: none;
+    border-radius: 2rem;
+    outline: none;
+    font-family: 'Primera fuente';
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    transition: 0.2s;
+}
+
+.o-button-back:hover{
+
+    background-color: #B38D4D;
+    border: 0.2rem solid #B38D4D;
+    outline: none;
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    color: white;
+    border-radius: 2rem;
+
+}
+
+.o-containerImgTopic{
+
+    background-image: url(../Imágenes/FondoCañon.jpg);
+    background-size: cover;
+    height: 20rem;
+    background-position: 0rem -9rem;
+    border-radius: 0.5rem;
+    padding: 0rem 0rem 1rem 1rem
+
+}
+
+.o-Box-ExplicationTopic{
+
+    height: 178rem;
+    width: 70rem;
+
+}
+
+.o-BoxTitleTopic{
+
+    height: 2.5rem;
+
+}
+
+.o-containerDefinitionTopic{
+
+    margin: 3rem 0rem 0rem 0rem;
+    text-align: justify;
+
+}
+
+.o-Box-ImgGraphicBall{
+
+    margin: 1.5rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.o-img-graphic{
+
+    width: 40rem;
+
+}
+
+.o-box-TitleSimulator{
+
+    margin: 2rem 0rem 0rem 0rem;
+
+}
+
+.o-box-TextSimulator{
+
+    background-color: #A1C6EA;
+    margin: 1rem 0rem 0rem 0rem;
+    height: 5rem;
+    padding: 1rem;
+    
+}
+
+.o-box-GameSimulator{
+
+    margin: 3rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.o-containerSimulator{
+
+    width: 50rem;
+    height: 34rem;
+    border: none;
+
+}
+
+.o-box-TitleEquations{
+
+    margin: 5rem 0rem 0rem 0rem;
+
+}
+
+.o-container-imgEquations{
+
+    height: 4rem;
+    margin: 3rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.o-box-img-Equation{
+
+    height: 3rem;
+
+}
+
+.o-img-pointEquation{
+
+    width: 1rem;
+
+}
+
+.o-img-Equation1{
+
+    width: 10rem;
+
+}
+
+.o-container-pointEquation{
+
+    display: flex;
+    align-items: center;
+    height: 3rem;
+
+}
+
+.o-img-Equation2{
+
+    width: 9rem;
+
+}
+
+.o-container-pointEquation2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+
+}
+
+.o-container-pointEquation3{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 3rem;
+
+}
+
+.o-containerExampleTopic{
+
+    height: 46rem;
+    margin: 4.5rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.o-box-Example{
+
+    background-color: #F0EEEE;
+    height: 45rem;
+    border-radius: 1rem;
+    padding: 2.5rem 4rem 0rem 4rem;
+    box-shadow:  0px 2px 11px 0px #c2c2c2;
+
+}
+
+.o-container-img-GraphicExample{
+
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.o-img-Graphic{
+
+    width: 34rem;
+    border-radius: 1rem;
+
+}
+
+.o-containerButtonSolution{
+
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.o-box-SolutionExample{
+
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.o-button-solutionExample{
+
+    width: 9rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0.2rem solid #B38D4D;
+    border-radius: 0.4rem;
+    font-family: 'Segunda fuente';
+    font-size: 1.4rem;
+    transition: 0.3s;
+
+}
+
+.o-button-solutionExample:hover{
+
+    background-color:#B38D4D;
+    color: white;
+
+}
+
+.o-box-TextButtonExercises{
+
+    margin: 4rem 0rem 0rem 0rem;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.o-buttonExercises{
+
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    background-color: #A1C6EA;
+    border-radius: 0.5rem;
+    font-family: 'Segunda fuente';
+    font-size: 1.3rem;
+    transition: 0.3s;
+
+}
+
+.o-buttonExercises:hover{
+
+    background-color: #6C9EFF;
+    box-shadow:0px 10px 10px rgba(0,0,0,0.2);
+    transform : translateY(-0.3rem);
+
+}
+
+.o-box-TextStartExercises{
+
+    max-width: 12rem;
+
+}
+
+.o-container-ButtonExercises{
+
+    padding: 0rem;
+
+}
